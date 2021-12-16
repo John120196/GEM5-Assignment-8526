@@ -1,3 +1,9 @@
+**Gem5 : 1st Assignment**
+
+**Lab B <br />
+Team 4 <br />
+ΑΕΜ: 8726 / 8399<br />**
+
 **1.1**
 
 **Basic system parameters**<br />
