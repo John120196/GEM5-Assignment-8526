@@ -1,2 +1,0 @@
-/build/ARM/gem5.opt -d Results_MinorCPU configs/example/se.py --cpu-type=MinorCPU --caches --mem-type=DDR3_1600_8x8 --cmd=myprog/addint_arm
-
