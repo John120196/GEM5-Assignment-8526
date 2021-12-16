@@ -16,13 +16,16 @@ System clock: self.clk_domain " SrcClockDomain(clock="1GHz",voltage_domain=self.
 **1.3**
 
 Έχουμε:<br />
+system.cpu_cluster.cpus.dcache.overall_accesses::total = 2160 <br />
+system.cpu_cluster.cpus.icache.overall_accesses::total = 2793 <br />
+system.cpu_cluster.l2.overall_accesses::total = 474 <br />
 system.cpu_cluster.cpus.dcache.overall_miss_rate::total = 0.081944 <br />
 system.cpu_cluster.cpus.icache.overall_miss_rate::total = 0.117078 <br />
 system.cpu_cluster.l2.overall_miss_rate::total = 1 <br />
 sim_insts = 5027 
 
 Συνεπώς:<br />
-CPI = 1 + ((0.117078 + 0.081944) x 6 + 1 x 50)/5027 = 1.0101838337
+CPI = 1 + ((0.117078 x 2793+ 0.081944 x 2160) x 6 + 474 x 50)/5027 = 6.3161<br />
 
 ?? στο stats.txt  CPI =  6.991048 
 
