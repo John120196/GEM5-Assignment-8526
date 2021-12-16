@@ -1,0 +1,1 @@
+./build/ARM/gem5.opt -d MinorCPU_1 configs/example/se.py --cpu-type=MinorCPU --cpu-clock=3GHz --caches -c  myprog/myprog_arm

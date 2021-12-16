@@ -1,0 +1,4 @@
+Benchmarks	final_tick	system.cpu.cpi	system.cpu_clk_domain.clock	sim_seconds	sim_insts	host_inst_rate
+MinorCPU_0	33412000	3.744481	500				0.000033	17846		66649
+MinorCPU_1	29276361	4.926426	333				0.000029	17846		87922
+MinorCPU_2	32759000	3.671299	500				0.000033	17846		92276

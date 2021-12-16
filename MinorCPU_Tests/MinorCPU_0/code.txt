@@ -1,0 +1,1 @@
+./build/ARM/gem5.opt -d MinorCPU_0 configs/example/se.py --cpu-type=MinorCPU --caches -c  myprog/myprog_arm

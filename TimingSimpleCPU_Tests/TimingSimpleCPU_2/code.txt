@@ -1,0 +1,1 @@
+./build/ARM/gem5.opt -d TimingSimpleCPU_2 configs/example/se.py --cpu-type=TimingSimpleCPU --mem-type=DDR4_2400_8x8 -c  myprog/myprog_arm

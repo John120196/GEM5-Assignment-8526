@@ -1,0 +1,4 @@
+Benchmarks		final_tick	system.cpu.cpi	system.cpu_clk_domain.clock	sim_seconds	sim_insts	host_inst_rate
+TimingSimpleCPU_0	1301221000	NAN		500				0.001301	17798		91144
+TimingSimpleCPU_1	1329221115	NAN		333				0.001329	17798		92860
+TimingSimpleCPU_2	1290925000	NAN		500				0.001291	17798		83106
