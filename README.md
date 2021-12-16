@@ -62,15 +62,7 @@ _*MinorCPU_0 & TimingSimpleCPU_0 > default parameters_ <br />
 _*Χρησιμοποιούμε ticks αντί για sim_seconds για μεγαλύτερη ακρίβεια, αλλά συνεχίζει να ισχύει ότι<br /> λιγότερα ticks = καλύτερη ταχύτητα εκτέλεσης_<br />
 
 Αναλυτικά:<br />
-![table1]()
-
-Benchmarks  	      final_tick	   system.cpu_clk_domain.clock	sim_insts 	host_inst_rate
-MinorCPU_0	        33412000	      500				                  17846		    66649
-MinorCPU_1	        29276361	      333				                  17846	  	  87922
-MinorCPU_2	        32759000	      500				                  17846	    	92276
-TimingSimpleCPU_0 	1301221000	  	500				                 	17798	    	91144
-TimingSimpleCPU_1	  1329221115  		333			                    17798	    	92860
-TimingSimpleCPU_2	  1290925000	  	500				                 	17798	    	83106
+![table1](https://github.com/John120196/GEM5_Assignment1/blob/main/Charts/New%20Picture.png)<br />
 
 Απο τα παραπάνω αποτελέσματα παρατηρούμε ότι η υψηλότερη συχνότητα του CPU μειώνει το χρόνο εκτέλεσης του myprog_arm στο MinorCPU ενώ τον αυξάνει με το μοντέλο του TimingSimpleCPU! Ο MinorCPU φαίνεται να δείχνει μεγαλύτερη ευαισθησία στην αλλαγή του "CPU Clock".<br />
 Αντίθετα φαίνεται πως η χρήση τεχνολογίας DDR4 μνήμης στα 2400MHz βοηθά σε μεγαλύτερο βαθμό το χρόνο εκτέλεσης του TimingSimpleCPU ενώ ο MinorCPU επωφελείται λιγότερο!<br />
